@@ -31,5 +31,10 @@ export class AppComponent {
     this.resultado=this.numero1/this.numero2;
   }
 
+  mod():void{
+
+    this.resultado=this.numero1%this.numero2;
+  }
+
 
 }
